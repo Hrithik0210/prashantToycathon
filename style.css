@@ -1,0 +1,83 @@
+body{
+    background-color: #EAF6F6;
+}
+.navbar{
+    background-color: #66BFBF;
+}
+.navbar-brand{
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+
+.mypic{
+    border-radius: 100%;
+    width: 2rem;
+}
+
+.main{
+    position: relative;
+    top: 5rem;
+    display: flex;
+    height: 20rem;
+    
+    flex-wrap: wrap;
+}
+.main-item{
+
+
+    width: 50%;
+    
+}
+.king{
+    width: 60%;
+    position: relative;
+    left: 1.5rem;
+    
+    
+}
+.chor{
+    width: 70%;
+    position: relative;
+    top: 1rem;
+}
+.mantri{
+    width: 50%;
+    position: relative;
+    left: 2rem;
+
+}
+.sipai{
+    width: 50%;
+}
+
+.btn1 {
+    position: relative;
+    margin-top: 2rem;
+    left: 6rem;
+    background: #9dd2f5;
+    background-image: -webkit-linear-gradient(top, #9dd2f5, #0068a8);
+    background-image: -moz-linear-gradient(top, #9dd2f5, #0068a8);
+    background-image: -ms-linear-gradient(top, #9dd2f5, #0068a8);
+    background-image: -o-linear-gradient(top, #9dd2f5, #0068a8);
+    background-image: linear-gradient(to bottom, #9dd2f5, #0068a8);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: #0068a8;
+    background-image: -webkit-linear-gradient(top, #0068a8, #9dd2f5);
+    background-image: -moz-linear-gradient(top, #0068a8, #9dd2f5);
+    background-image: -ms-linear-gradient(top, #0068a8, #9dd2f5);
+    background-image: -o-linear-gradient(top, #0068a8, #9dd2f5);
+    background-image: linear-gradient(to bottom, #0068a8, #9dd2f5);
+    text-decoration: none;
+  }
